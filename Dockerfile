@@ -8,3 +8,4 @@ RUN pip install --no-cache-dir "setuptools<46.0.0" && pip install --no-cache-dir
 COPY app.py /app/
 
 ENTRYPOINT ["python3", "app.py"]
+COPY testCI.txt /app/
