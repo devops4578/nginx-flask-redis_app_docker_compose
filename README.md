@@ -66,3 +66,5 @@ docker compose up -d --build
 ## Compatibility note
 
 The Dockerfile uses Python 3.6, which is end-of-life. Consider upgrading the base image and checking dependency compatibility before using this app beyond a local demonstration.
+
+## test CI action
