@@ -9,7 +9,8 @@ services:
       - web
 
   web:
-    build: .
+    image: mohamed20202030/counter_app-web:latest
+    # build: .
     expose:
       - "5000"
     depends_on:
