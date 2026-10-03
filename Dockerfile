@@ -9,3 +9,4 @@ COPY app.py /app/
 
 ENTRYPOINT ["python3", "app.py"]
 COPY testCI.txt /app/
+COPY testCI2.txt /app/
